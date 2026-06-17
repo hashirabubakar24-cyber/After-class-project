@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Page</title>
+    <style>
+        body{
+            background-color: lightyellow;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 65px 30px 30px 30px;
+            height: 1800px;
+        }
+        .top-bar{
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            background-color: darkorange;
+            color: white;
+            padding: 14px 30px;
+            margin-top: 3px;
+        }
+        .list-item{
+            position: static;
+            margin: 3px 0;
+            padding: 10px 20px;
+            background-color: forestgreen;
+            color: white;
+            border-radius: 4px;
+            border: 2px solid rgb(225, 225, 52);
+        }
+        .special-note{
+            position: relative;
+            left: 30px;
+            padding: 10px 20px;
+            background-color: aquamarine;
+            color: white;
+        }
+        .pet-card{
+            position: absolute;
+            padding: 10px 20px;
+            top: 8px;
+            right: 8px;
+            background-color: gold;
+            color: rgb(0, 0, 0);
+            border-radius: 4px;
+            border: 4px solid rgb(172, 129, 1);
+        }
+        .scroll-down{
+            position: sticky;
+            top: 55px;
+            background-color: aqua;
+            padding: 10px 20px;
+            margin: 10px 0px 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">My Pet Page - German Sheperd</div>
+    <h1>Meet Buddy!</h1>
+    <h2>static position</h2>
+    <p class="list-item">Age: It is 2 years old</p>
+    <p class="list-item">Food: Meat</p>
+    <h2>relative position</h2>
+    <p class="special-note">It is the pet of the month</p>
+    <h2>absolute position</h2>
+    <p>The badge is pinned in the corner</p>
+    <div class="pet-card">
+        <p>It is brave dog </p>
+    </div>
+    <h2>sticky position</h2>
+    <p class="scroll-down">scroll down
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt sit sapiente odit molestias doloremque doloribus consequuntur quis saepe blanditiis necessitatibus, dolorum officia quae sint illum laudantium dolores eveniet! Omnis, saepe.
+    </p>
+    
+</body>
+</html>
