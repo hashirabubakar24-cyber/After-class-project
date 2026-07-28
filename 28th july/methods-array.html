@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methods In Array</title>
+</head>
+<body>
+    <h2>Methods In Array JavaScript</h2>
+    <h2>join() and pop()</h2>
+    <p>The join() method joins all the elements into a sring and the pop() method removes the last element from the array.</p>
+    <p id="myjoin"></p>
+    <p id="myfirstpop"></p>
+    <p id="mysecondpop"></p>
+    <script>
+        var fruits =["Mango","Apple","Banana","Orange"];
+        document.getElementById("myjoin").innerHTML = fruits.join("*")
+        document.getElementById("myfirstpop").innerHTML = fruits;
+        fruits.pop();
+        document.getElementById("mysecondpop").innerHTML = fruits;
+    </script>
+</body>
+</html>
